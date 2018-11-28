@@ -1,36 +1,36 @@
 {
-  "DS1302": {
+  "BH1750": {
     "visual": {
-      "image": "parts/ds1302.svg",
-      "width": 48,
-      "height": 85,
+      "image": "parts/BH1750.svg",
+      "width": 42,
+      "height": 90,
       "pinDistance": 7.2,
       "pinLocations": [
         {
-          "x": 39,
-          "y": 5
+          "x": 35,
+          "y": 8
         },
         {
-          "x": 31.8,
-          "y": 5
+          "x": 27.8,
+          "y": 8
         },
         {
-          "x": 24.6,
-          "y": 5
+          "x": 20.6,
+          "y": 8
         },
         {
-          "x": 17.4,
-          "y": 5
+          "x": 13.4,
+          "y": 8
         },
         {
-          "x": 10.2,
-          "y": 5
+          "x": 6.2,
+          "y": 8
         }      ]
     },
     "numberOfPins": 5,
     "instantiation": {
       "kind": "function",
-      "fullyQualifiedName": "DS1302.create,DS1302.start,DS1302.stop,DS1302.readRam,DS1302.writeRam,DS1302.DateTime,DS1302.setSecond,DS1302.getSecond,DS1302.setMinute,DS1302.getMinute,DS1302.setHour,DS1302.getHour,DS1302.setWeekday,DS1302.getWeekday,DS1302.setDay,DS1302.getDay,DS1302.setMonth,DS1302.getMonth,DS1302.setYear,DS1302.getYear",
+      "fullyQualifiedName": "BH1750.getIntensity,BH1750.on,BH1750.off,BH1750.SetAddress",
       "argumentRoles": [
         {
           "pinInstantiationIdx": 0
@@ -44,22 +44,22 @@
         "orientation": "+Y"
       },
       {
+        "target": "SCL",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "SDA",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "SAO",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
         "target": "ground",
-        "style": "male",
-        "orientation": "+Y"
-      },
-      {
-        "target": "CLK",
-        "style": "male",
-        "orientation": "+Y"
-      },
-      {
-        "target": "DAT",
-        "style": "male",
-        "orientation": "+Y"
-      },
-      {
-        "target": "CS",
         "style": "male",
         "orientation": "+Y"
       }

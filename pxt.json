@@ -1,0 +1,19 @@
+{
+    "name": "BH1750",
+    "version": "1.3.0",
+    "description": "makecode BH1750 Digital Ambient Light Sensor extension for micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "pxtparts.json",
+        "BH750.ts",
+        "parts/BH750.svg"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}

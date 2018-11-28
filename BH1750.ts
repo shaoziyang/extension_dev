@@ -17,7 +17,7 @@ let Address = 35
 /**
  * BH1750 Digital Ambient Light Sensor Package
  */
-//% weight=100 color=#000011 icon="\uf185"
+//% weight=100 color=#000011 icon="\uf185" block="BH1750"
 namespace BH1750 {
     /**
      * set BH1750 Digital Ambient Light Sensor I2C address, default is 35

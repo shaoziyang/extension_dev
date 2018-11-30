@@ -5,7 +5,7 @@ makecode BH1750 Digital Ambient Light Sensor package for micro:bit
 Author: shaoziyang  
 Date:   2018.Mar  
   
-![]GY-30.jpg)
+![](GY-30.jpg)
 
 ## Add extension
 

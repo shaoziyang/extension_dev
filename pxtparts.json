@@ -2,8 +2,8 @@
   "BH1750": {
     "visual": {
       "image": "parts/BH1750.svg",
-      "width": 42,
-      "height": 90,
+      "width": 42.52,
+      "height": 90.71,
       "pinDistance": 7.2,
       "pinLocations": [
         {
